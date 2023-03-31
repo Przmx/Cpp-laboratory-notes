@@ -10,7 +10,7 @@
 				"-std=c++23",
 				"${workspaceFolder}\\*.cpp",
 				"-o",
-				"${fileDirname}\\rooster.exe"
+				"${fileDirname}\\main.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"

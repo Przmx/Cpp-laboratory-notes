@@ -260,7 +260,7 @@ int main()
 
    cout << endl << "Statystyka wystepowania wyrazow w tekscie" << endl;
    map<string, int> slowa_statystyka;         // mapa zawierająca statystykę występowania wyrazów
-   fstream input_file("AE.txt", ios::in);  // wczytanie tekstu z pliku - należy wpisać właściwą nazwę
+   fstream input_file("Textfile.txt", ios::in);  // wczytanie tekstu z pliku - należy wpisać właściwą nazwę
    if(input_file.is_open())
    {
        while (!input_file.eof())
